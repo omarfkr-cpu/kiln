@@ -3,7 +3,7 @@ import { chapterPrompt } from "../../../lib/prompts";
 import type { Outline, Pocket } from "../../../lib/schemas";
 import { demoChapter } from "../../../lib/demo";
 
-export const maxDuration = 800;
+export const maxDuration = 300;
 
 // Streams the chapter as plain text. Errors mid-stream are appended as a marker line the client detects.
 export async function POST(req: Request) {
